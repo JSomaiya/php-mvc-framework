@@ -7,9 +7,9 @@ define('APP_ROOT', dirname((dirname(__FILE__))));
 define('URL_ROOT', '/');
 
 $_host = 'localhost';
-$_dbname = 'mvc_test';
-$_user = 'jai';
-$_pass = '123456';
+$_dbname = 'your-database-name';
+$_user = 'your-database-user';
+$_pass = 'your-database-password';
     
 try {
     $_db = new PDO('mysql:host=' . $_host . ';dbname=' . $_dbname, $_user, $_pass);
